@@ -24,7 +24,7 @@ status = "Enabled"
 }
 terraform {
 backend "s3" {
-region = "us-east-1"
+region = "us-east-2"
 bucket = "hemanthflm1.devops1.project.bucket"
 key = "prod/terraform.tfstate"
 }
